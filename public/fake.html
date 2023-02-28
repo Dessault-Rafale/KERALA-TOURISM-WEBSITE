@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <link href="assets/css/theme.css" rel="stylesheet" />
+  <link href="colorlib-regform-8/css/style.css" rel="stylesheet" />
+
+
+
+  <title>FAKEPAGE</title>
+ 
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-success fixed-top py-2 d-block"
+    data-navbar-on-scroll="data-navbar-on-scroll">
+    <div class="container"><a class="navbar-brand" href="index.html"><img
+          src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a5/Kerala_God%27s_Own_Country_Logo.svg/1200px-Kerala_God%27s_Own_Country_Logo.svg.png"
+          height="80" alt="logo" /></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span
+          class="navbar-toggler-icon"> </span></button>
+      <div class="collapse navbar-collapse border-top border-lg-0 mt-4 mt-lg-0" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto pt-2 pt-lg-0 font-base align-items-lg-center align-items-start">
+          <li class="nav-item px-3 px-xl-4"><a class="nav-link fw-medium" aria-current="page"
+              href="#service">Service</a></li>
+          <li class="nav-item px-3 px-xl-4"><a class="nav-link fw-medium" aria-current="page"
+              href="#destination">Destination</a></li>
+          <li class="nav-item px-3 px-xl-4"><a class="nav-link fw-medium" aria-current="page"
+              href="#booking">Booking</a></li>
+          <li class="nav-item px-3 px-xl-4"><a class="nav-link fw-medium" aria-current="page"
+              href="#testimonial">Testimonial</a></li>
+          <li class="nav-item dropdown px-3 px-lg-0"> <a
+              class="d-inline-block ps-0 py-2 pe-3 text-decoration-none dropdown-toggle fw-medium" href="#"
+              id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Districts</a>
+            <ul class="dropdown-menu dropdown-menu-end border-0 shadow-lg" style="border-radius:0.3rem;"
+              aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="Kasargod.html">KASARGODE</a></li>
+              <li><a class="dropdown-item" href="Kannur.html">KANNUR</a></li>
+              <li><a class="dropdown-item" href="Waynad.html">WAYNAD</a></li>
+              <li><a class="dropdown-item" href="Kozhikode.html">KOZHIKODE</a></li>
+              <li><a class="dropdown-item" href="Malappuram.html">MALAPPURAM</a></li>
+              <li><a class="dropdown-item" href="Thrissur.html">THRISSUR</a></li>
+              <li><a class="dropdown-item" href="Palakkad.html">PALAKKAD</a></li>
+              <li><a class="dropdown-item" href="Ernakulam.html">ERNAKULAM</a></li>
+              <li><a class="dropdown-item" href="Kottayam.html">KOTTAYAM</a></li>
+              <li><a class="dropdown-item" href="Idukki.html">IDUKKI</a></li>
+              <li><a class="dropdown-item" href="Alappuzha.html">ALAPPUZHA</a></li>
+              <li><a class="dropdown-item" href="Pathanamthitta.html">PATHANAMTHITTA</a></li>
+              <li><a class="dropdown-item" href="kollam.html">KOLLAM</a></li>
+              <li><a class="dropdown-item" href="Trivandram.html">THIRUVANANTHAPURAM</a></li>
+            </ul>
+          <li class="nav-item px-3 px-xl-4"><a class="nav-link fw-medium" aria-current="page"
+              href="Sign in/login index.html">Login</a></li>
+          <li class="nav-item px-3 px-xl-4"><a class="btn btn-outline-dark order-1 order-lg-0 fw-medium"
+              href="Sign up/Sign up index.html">Sign Up</a></li>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="main">
+
+    <section class="signup">
+      <!-- <img src="images/signup-bg.jpg" alt=""> -->
+      <div class="container">
+        <div class="signup-content">
+          <form method="POST" id="signup-form" class="signup-form">
+            <h2 class="form-title">Create account</h2>
+            <div class="form-group">
+              <input type="text" class="form-input" name="name" id="name" placeholder="Your Name" />
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-input" name="email" id="email" placeholder="Your Email" />
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-input" name="password" id="password" placeholder="Password" />
+              <span toggle="#password" class="zmdi zmdi-eye field-icon toggle-password"></span>
+            </div>
+            <div class="form-group">
+              <input type="password" class="form-input" name="re_password" id="re_password"
+                placeholder="Repeat your password" />
+            </div>
+            <div class="form-group">
+              <input type="checkbox" name="agree-term" id="agree-term" class="agree-term" />
+              <label for="agree-term" class="label-agree-term"><span><span></span></span>I agree all statements in <a
+                  href="#" class="term-service">Terms of service</a></label>
+            </div>
+            <div class="form-group">
+              <input type="submit" name="submit" id="submit" class="form-submit" value="Sign up" />
+            </div>
+          </form>
+          <p class="loginhere">
+            Have already an account ? <a href="#" class="loginhere-link">Login here</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ===============================================-->
+    <script src="vendors/@popperjs/popper.min.js"></script>
+    <script src="vendors/bootstrap/bootstrap.min.js"></script>
+    <script src="vendors/is/is.min.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=window.scroll"></script>
+    <script src="vendors/fontawesome/all.min.js"></script>
+    <script src="assets/js/theme.js"></script>
+    <!-- JS -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&amp;family=Volkhov:wght@700&amp;display=swap"
+      rel="stylesheet">
+
+</body>
+
+</html>
